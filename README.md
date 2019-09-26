@@ -1,0 +1,1 @@
+# flask-life-page
