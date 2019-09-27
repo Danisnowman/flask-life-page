@@ -1,0 +1,28 @@
+person:
+    name: "Daniel Ernesto Hernández Zelada"
+    age: 20
+    civilStatus: "Single"
+    email: "danielernesto@ufm.edu"
+    address: "Carretera a El Salvador km 26.5 Colinas de Andalucía Casa 27"
+    nationality: "guatemalan"
+    about1: "Nací el 11 de agosto de 1999. Mis papás eligieron mi primer nombre por su significado Bíblico, Jehová es mi juez y mi segundo nombre por mi abuelo materno. Inicié mis estudios en el Colegio Cristiano Bilingüe el Shaddai a la edad de 2.5 años en el grado de nursery y continué ahí hasta graduarme en el 2017 de bachiller en ciencias y letras. "
+    about2: "En el grado de preparatoria, la directora de pre-primaria notó mi interés por las ciencias y me prestó un libro de tercero primaria para invitarme a leer más sobre biología. Fue ahí donde me di cuenta que me interesaba saber el porqué de las cosas y desde entonces quise estudiar algo relacionado a la ciencia."
+    about3: "En el año 2017 me gradué del colegio y decidí que quería estudiar Computer Science en la Universidad Francisco Marroquín. Lo decidí luego de haber tenido una entrevista con cada uno de los directores de la carrera pero en diferentes universidades. Me gustó más la UFM porque el director de la carrera hacía cosas más similares a lo que me gustaba hacer. " 
+
+school:
+    name: "Colegio Cristiano Biligüe El Shaddai"
+    academicLevel: "Highschool"
+    careerName: "Bachillerato"
+    period: "2001-2017"
+
+university:
+    name: "Universidad Francisco Marroqín"
+    academicLevel: "Engineering"
+    careerName: "Computer Science"
+    period: "2018-2021"
+
+laborExperience:
+    name: "danisnowman"
+    job: "Senior Photographer"
+    period: "9 years"
+    description: "Here I work as a photographer."
