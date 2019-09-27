@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1 class="display-3">Labor Experience</h1>
+    <p class="lead">
+        This is my Labor Experience Info. page. If you are interested in knowing what jobs I've had keep on reading.
+    </p>
+</div>
+<div class="row">
+        <div class="col-xs-6 col-lg-4" style="width: 30rem;">
+          <div class="container" style="width: 30rem;">
+            <h2>Work</h2>
+            <p>This is the only real job I've had:</p>
+            <ul>
+                <li><strong>Name:</strong> {{data["laborExperience"]["name"]}}</li>
+                <li><strong>Job:</strong> {{data["laborExperience"]["job"]}}</li>
+                <li><strong>Period:</strong> {{data["laborExperience"]["period"]}}</li>
+                <li><strong>Description:</strong> {{data["laborExperience"]["description"]}}</li>
+            </ul>
+            </div>
+        </div><!--/.col-xs-6.col-lg-4-->
+      </div>
+
+{% endblock %}

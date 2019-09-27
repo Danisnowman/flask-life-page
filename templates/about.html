@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1 class="display-3">Information Page</h1>
+    <p class="lead">
+        This is my information page. If you are interested in learning more about me just read the following.
+    </p>
+</div>
+<dl class="dl-horizontal">
+    <dt>Name:</dt>
+        <dd>{{data["person"]["name"]}}</dd>
+    <dt>Age:</dt>
+        <dd>{{data["person"]["age"]}}</dd>
+    <dt>Civil Satus:</dt>
+        <dd>{{data["person"]["civilStatus"]}}</dd>
+    <dt>E-Mail:</dt>
+        <dd>{{data["person"]["email"]}}</dd>
+    <dt>Address:</dt>
+        <dd>{{data["person"]["address"]}}</dd>
+    <dt>Nationality:</dt>
+        <dd>{{data["person"]["nationality"]}}</dd>
+    <dt>About me:</dt>
+        <dd><p>{{data["person"]["about1"]}}</p></dd>
+        <dd><p>{{data["person"]["about2"]}}</p></dd>
+        <dd><p>{{data["person"]["about3"]}}</p></dd>
+  </dl>
+
+{% endblock %}
