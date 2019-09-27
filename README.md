@@ -35,6 +35,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
+
 * Python3
   
 ```bash
@@ -42,19 +43,21 @@ brew cask install python
 ```
 
 ### Usage
- 
+
 1. Clone the flask-life-page:
-   
+
 ```sh
 git clone https:://github.com/Danisnowman/flask-life-page.git
 ```
-1. Install python requirements:
-2. 
+
+2. Install python requirements:
+
 ```sh
 pip install -r requirements.txt
 ```
 
-2. Run it:
+3. Run it:
+
 ```sh
 python3 app.py
 ```
