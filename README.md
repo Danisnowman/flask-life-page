@@ -17,9 +17,7 @@
 ## About The Project
 
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`Danisnowman`, `flask-life-page`, `snowminal`, `danielernesto@ufm.edu`
+This is the first small hw from Progra 3, from CS in UFM.
 
 
 ### Built With
