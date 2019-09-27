@@ -19,52 +19,17 @@ def home():
     return render_template("about.html", data=data)
 
 
-
-
 @app.route("/academic-info")
-def api_students():
+def academic_info():
     return render_template("acedemic-info.html", data=data)
 
 
-# @app.route("/ages")
-# def ages():
-#     edades=[edad for estudiante,edad in alumnos.items()]
-#     average=int(sum(edades)/len(edades))
-#     return render_template("ages.html", alumnos=alumnos, average=average)
+@app.route("/labor-experience")
+def labor_xp():
+    return render_template("labor-experience.html", data=data)
 
 
-# @app.route("/students")
-# def students():
-#     return render_template("students.html", alumnos=alumnos)
 
-
-# def search_student(student):
-#     """
-#     A function that searches in data source
-#     """
-#     result=[]
-#     for name,age in alumnos.items():
-#         if student.lower() in name.lower():
-#             result.append(name)
-
-#     print(f"Result {result}")
-#     return result
-
-
-# @app.route("/search",methods=["GET"])
-# def search():
-#     """
-#     /search route, to search from an input form.
-#     """
-#     student_to_find=request.args.get("student", None)
-#     print(f"A buscar: {student_to_find}")
-#     student_list=search_student(student_to_find)
-#     return render_template("search.html",student_list_result=student_list)
-
-# @app.route("/")
-# def home():
-#     foo="bar"
-#     return render_template("home.html", mivariable=foo ,developer=developer)
 
 if __name__ == "__main__":
     debug=False
